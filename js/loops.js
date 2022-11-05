@@ -90,10 +90,47 @@
 // }
 
 // Вивести числа выд 1 до 15 не парних
-const limit = 15;
-let m = 1;
-for (let i = 1; i <= 15; i += 2) {
-  // console.log("m :>> ", m);
-  m *= i; // 1 * 1 * 3 * 5 * 7 * ... * 15
-}
-console.log("m :>> ", m);
+// const limit = 15;
+// let m = 1;
+// for (let i = 1; i <= 15; i += 2) {
+//   // console.log("m :>> ", m);
+//   m *= i; // 1 * 1 * 3 * 5 * 7 * ... * 15
+// }
+// console.log("m :>> ", m);
+
+//----------------------------------------
+
+// передумова; min 0
+// while (conditions){
+//  body
+//}
+
+//передумова; min 0
+// for (initialization; conditions; var_change){
+//  body
+//}
+
+//постумова; min 1
+// do{
+//  body
+//}
+// while (conditions)
+
+// Користувач має ввестикоректне число
+
+// let userNumber = null;
+
+// do {
+//   userNumber = Number(prompt("Input number"));
+// } while (!Number.isFinite(userNumber));
+
+// console.log("userNumber :>> ", userNumber);
+
+// Користувач має вводити результат 2+2*2 до тих пір поки не введе вірно
+
+// let userNumber = null;
+
+// do {
+//   userNumber = Number(prompt("Input number 2+2*2"));
+// } while (userNumber !== 6);
+// console.log("userNumber :>> ", userNumber);
